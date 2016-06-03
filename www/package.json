@@ -1,0 +1,28 @@
+{
+  "name": "hackfetera",
+  "version": "0.1.1",
+  "description": "Hackfetera web interface.",
+  "readme": "../README.md",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafacouto/hackfetera"
+  },
+  "keywords": [
+    "hackfetera",
+    "coffee-maker",
+    "esp8266"
+  ],
+  "author": "Rafa Couto <caligari@treboada.net>",
+  "license": "GNU AFFERO GENERAL PUBLIC LICENSE v3",
+  "bugs": {
+    "url": "https://github.com/rafacouto/hackfetera/issues"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.4"
+  }
+}
