@@ -1,0 +1,26 @@
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+.header {
+    padding: 1ex 0;
+}
+
+.jumbotron h1 {
+	font-size: 4em;
+}
+
+.jumbotron .lead {
+	display: none;
+}
+
+.lead .quote-text {
+	font-weight: bold;
+}
+
+.nav-pills li {
+	margin-right: 1em;
+}
