@@ -1,3 +1,5 @@
+
+
 var quotes = [
   	{ text: "El café es un bálsamo para el corazón y el espíritu.", author: "Giuseppe Verdi"},
 	{ text: "Una buena taza de su negro licor, bien preparado, contiene tantos problemas y tantos poemas como una botella de tinta.", author: "Rubén Darío"},
@@ -17,8 +19,9 @@ $(document).ready(function () {
 	// quote
 	var dom = $(".jumbotron .lead");
 	var quote = quotes[Math.floor(Math.random() * (quotes.length))];
-	dom.children(".text").text('"' + quote.text + '"');
-	dom.children(".author").text(quote.author);
+	console.log(quote);
+	dom.children(".quote-text").text('"' + quote.text + '"');
+	dom.children(".quote-author").text(quote.author);
 	setTimeout(function(){ dom.slideDown(); }, 1000);	
 });
 
